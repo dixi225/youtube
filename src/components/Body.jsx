@@ -1,5 +1,5 @@
 import MainContainer from "./Maincontainer"
-import Sidebar from "./SIdebar"
+import Sidebar from "./Sidebar"
 
 const Body=()=>
 {

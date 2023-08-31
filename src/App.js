@@ -1,11 +1,12 @@
+import { Provider } from 'react-redux';
 import './App.css'
 import Body from './components/Body';
 import Head from './components/Head';
+import store from './Constants/Utills/store';
 function App() {
-  return<>
-  <Head/>
-  <Body/>
-  </> 
+  return<Provider store={store}>
+      <Head/>
+      <Body/>
+  </Provider>
 }
-
 export default App;
