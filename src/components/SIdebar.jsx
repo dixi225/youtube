@@ -3,7 +3,7 @@ import { useSelector } from "react-redux"
 const Sidebar=()=>
 {
     const selector=useSelector((store)=>store.name.isMenuOpen)
-       return !selector?null:<div className="shadow-xl">
+       return !selector?null:<div className=" shadow-2xl">
     <ul className="pt-10">
         <li className=" text-gray-800 font-semibold p-3 cursor-pointer pr-20 hover:bg-gray-200">Home</li>
         <li className=" text-gray-800 font-semibold p-3 cursor-pointer pr-20 hover:bg-gray-200">Shorts</li>
