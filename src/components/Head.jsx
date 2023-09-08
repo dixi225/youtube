@@ -31,6 +31,7 @@ const Head=()=>
             <div className="flex items-center">
                 <img onClick={toggleHandler} className=" hover:bg-gray-100 cursor-pointer w-10"src={HamBurugur_URL} alt="" />
                 <img className="cursor-pointer ml-6 w-20"src={Youtube_Logo} alt=""/>
+
             </div>
             <div>
                 <input className=" focus:outline focus:outline-1 focus:outline-blue-200 py-1 border border-gray-400  px-3 hover:drop-shadow-md cursor-pointer rounded-2xl w-96 mr-3 bg-gray-100"
