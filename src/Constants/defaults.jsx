@@ -5,3 +5,4 @@ export const User_Icon_Logo='https://pluspng.com/img-png/user-png-icon-download-
 export const Search_Icon_Logo='http://cdn.onlinewebfonts.com/svg/img_156938.png'
 export const Youtube_API='https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key='+API_KEY 
 export const YOUTUBE_VIDEO_URL='https://www.youtube.com/watch?v='
+export const YOUTUBE_SEARCH_API='http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q='

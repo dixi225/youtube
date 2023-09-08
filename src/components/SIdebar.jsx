@@ -4,9 +4,9 @@ import { Link } from "react-router-dom"
 const Sidebar=()=>
 {
     const selector=useSelector((store)=>store.name.isMenuOpen)
-       return !selector?null:<div className="shadow-2xl">
+       return !selector?null:<div className="shadow-2xl h-fit sticky top-2">
     <div className="flex flex-col pt-10">
-        <Link to={'/'}><div className=" text-gray-800 font-semibold p-3 cursor-pointer pr-20 hover:bg-gray-200">Home</div></Link>  
+        <Link to={'/'}><div className=" text-gray-800 font-semibold p-3 mt-2  cursor-pointer pr-20 hover:bg-gray-200">Home</div></Link>  
         <div className=" text-gray-800 font-semibold p-3 cursor-pointer pr-20 hover:bg-gray-200">Shorts</div>
         <div className=" text-gray-800 font-semibold p-3 cursor-pointer pr-20 hover:bg-gray-200">Subscriptions</div>
     </div>
