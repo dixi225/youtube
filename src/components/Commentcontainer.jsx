@@ -5,7 +5,11 @@ const Commentcontainer=()=>{
    {
       name:'Ted Mosby',
       text: "Lorem ipsum culpa et excepturi fugit?Quis ut delectus deserunt aperiam qui veniam harum accusamus quibusdam exercitationem neque repellendus quidem ea illo molestiae quas porro, voluptate dolores natus sequi hic nam ducimus molestias aut! Odio, ab!",
-      replies:[],
+      replies:[   {
+         name:'Ted Mosby',
+         text: "Lorem ipsum culpa et excepturi fugit?Quis ut delectus deserunt aperiam qui veniam harum accusamus quibusdam exercitationem neque repellendus quidem ea illo molestiae quas porro, voluptate dolores natus sequi hic nam ducimus molestias aut! Odio, ab!",
+         replies:[],
+      },],
    },
    {
       name:'Tracy',
@@ -13,7 +17,7 @@ const Commentcontainer=()=>{
       replies:[   {
          name:'Harsh Dixit',
          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ea consectetur ipsuconsequuntur enim, repudiandae magni error repellendus mollitia eligendi aspernatur id vitae nulla suscipit optio culpa et excepturi fugit?Quis ut delectus deserunt aperiam qui veniam harum accusamus quibusdam exercitationem neque repellendus quidem ea illo molestiae quas porro, voluptate dolores natus sequi hic nam ducimus molestias aut! Odio, ab!",
-         replies:[   {
+         replies:[{
             name:'Harshssssssssssssss',
             text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ea consectetur ipsuconsequuntur enim, repudiandae magni error repellendus mollitia eligendi aspernatur id vitae nulla suscipit optio culpa et excepturi fugit?Quis ut delectus deserunt aperiam qui veniam harum accusamus quibusdam exercitationem neque repellendus quidem ea illo molestiae quas porro, voluptate dolores natus sequi hic nam ducimus molestias aut! Odio, ab!",
             replies:[   {
@@ -66,6 +70,7 @@ const Commentcontainer=()=>{
       // }
       // </div>
       return <div>
+         <h1 className="ml-10 mb-10 font-bold text-3xl">Comments:-</h1>
          <Commentlist data={commentData}/>
       </div>
    }
